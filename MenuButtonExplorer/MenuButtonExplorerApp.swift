@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MenuButtonExplorerApp: App {
+    
+    @StateObject private var navigationHistory: NavigationHistory = NavigationHistory()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(navigationHistory)
         }
     }
 }
