@@ -53,17 +53,17 @@ struct Home: View {
                     Button {
                         
                     } label: {
-                        Text("New Order");
+                        Text("New Order")
                     }
                     Button {
                         
                     } label: {
-                        Text("Cancel Order");
+                        Text("Cancel Order")
                     }
                     Button {
                         
                     } label: {
-                        Text("Account Settings");
+                        Text("Account Settings")
                     }
                 } label: {
                     Image(systemName: "ellipsis")
