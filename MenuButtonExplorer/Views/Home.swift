@@ -38,7 +38,7 @@ struct Home: View {
         .toolbar { //Replaces the soon to be deprecated .navigationBarItems(trailing:)
             ToolbarItem(placement: .topBarTrailing) {
                 Menu {
-                    //These Views are stacked from bottom to top starting with the 'Log Out' button.
+                    //These Views are stacked from bottom to top starting with the 'Log Out' button being at the bottom.
                     Button {
                         
                     } label: {
@@ -68,7 +68,7 @@ struct Home: View {
                 } label: {
                     Image(systemName: "ellipsis")
                         .foregroundColor(Color.black)
-                        .rotationEffect(.degrees(90)) //Rotate 90 degrees so the ellipsis stands instead of sits.
+                        .rotationEffect(.degrees(90)) //Rotate 90 degrees so the ellipsis stands instead of sitting.
                 }
                 .menuStyle(.automatic) //default menu style.
             }
